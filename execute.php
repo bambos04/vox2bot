@@ -96,6 +96,22 @@ elseif( stristr ( $text, "/pz" ) == true )
 {
 	$response = "Zielinski";
 }
+elseif( stristr ( $text, "/GC" ) == true )
+{
+	$response = "Arriva per primo, se ne va per ultimo.";
+}
+elseif( stristr ( $text, "/svezia" ) == true )
+{
+	$response = "Legend Killer, come Randy Orton";
+}
+elseif( stristr ( $text, "/rant" ) == true )
+{
+	$response = "Noi ragazzi abbiamo fatto due tiri in porta, in 180 minuti, in 180 minuti, due tiri in porta, di cui uno sporco che era tipo un tiro di destro di Chiellini che la sfiga ha voluto che aneh, che quella palla finisse sul piede destro di Chiellini e l'altro di El Shaarawy, ma due tiri, in 180' contro una squadra che ha come capitano Granqvist, che, porco demonio, a Genova se fa.. se vedono Granqvist danno fuoco alla città perchè faceva più danni della grandine quello.";
+}
+elseif( stristr ( $text, "/ventura" ) == true )
+{
+	$response = "è il peggior allenatore che l'Italia ha MAI avuto perché a differenza di tante altre volte il materiale ce l'aveva a disposizione, ma sto figlio di puttana ha pensato bene di fare come cazzo gli pareva e di farci perdere un cazzo di mondiale. cioè, io pensavo sinceramente che nella mia fottutissima vita di merda di non vedere mai una cazzo di estate mondiale senza l'Italia. E ora io mi metto in muto perché sono a tanto così da tirare 25 bestemmie di seguito. Questo figlio di puttana ci ha condannati per le sue idee di merda lasciando fuori la gente più in forma per le sue cazzo di convinzioni";
+}
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
