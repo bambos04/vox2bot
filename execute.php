@@ -48,6 +48,55 @@ elseif( stristr ( $text, "/puntata" ) == true )
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
 }
+elseif( stristr ( $text, "/abisso" ) == true )
+{
+	$response = "Ricordati che quando guardi a lungo Abisso, l'abisso guarda in te";
+}
+elseif( stristr ( $text, "/abisso" ) == true )
+{
+	$response = "Ricordati che quando guardi a lungo Abisso, l'abisso guarda in te";
+}
+elseif( stristr ( $text, "/joker" ) == true )
+{
+	$response = "https://www.instagram.com/p/Bujp_ryl-70/?hl=it";
+}
+elseif( stristr ( $text, "/joker" ) == true )
+{
+	$response = "https://www.instagram.com/p/Bujp_ryl-70/?hl=it";
+}
+elseif( stristr ( $text, "/coso" ) == true )
+{
+	$response = "Si chiama Szczesny porca madonna, coso ci chiami tuo fratello";
+}
+elseif( stristr ( $text, "/vjr" ) == true )
+{
+	$response = "Vinicius";
+}
+elseif( stristr ( $text, "/hz" ) == true )
+{
+	$response = "Ziyech";
+}
+elseif( stristr ( $text, "/mdl" ) == true )
+{
+	$response = "De Ligt";
+}
+elseif( stristr ( $text, "/rn" ) == true )
+{
+	$response = "N A I N G G O L A N. LA DOPPIA SULLA G, SULLA CAZZO DI G";
+}
+elseif( stristr ( $text, "/piatek" ) == true )
+{
+	$response = "Pum Pum Pum";
+}
+elseif( stristr ( $text, "/rl" ) == true )
+{
+	$response = "Lewandowski";
+}
+elseif( stristr ( $text, "/pz" ) == true )
+{
+	$response = "Zielinski";
+}
+
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
 echo json_encode($parameters);
