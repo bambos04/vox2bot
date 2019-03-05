@@ -23,7 +23,7 @@ if(strpos($text, "/start") === 0 || $text=="/ciao")
 }
 elseif($text=="/social")
 {
-	$response = "Twitter: https://twitter.com/vox2box  Instagram: https://www.instagram.com/vox2box/ Facebook: https://www.facebook.com/vox2box/";
+	$response = "Twitter: https://twitter.com/vox2box  \r\nInstagram: https://www.instagram.com/vox2box/ \r\nFacebook: https://www.facebook.com/vox2box/";
 }
 elseif($text=="/redazione")
 {
