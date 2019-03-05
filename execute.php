@@ -8,16 +8,16 @@ if(!$update)
 $message = isset($update['message']) ? $update['message'] : "";
 $messageId = isset($message['message_id']) ? $message['message_id'] : "";
 $chatId = isset($message['chat']['id']) ? $message['chat']['id'] : "";
-$firstname = isset($message['chat']['first_name']) ? $message['chat']['first_name'] : "";
+$firstname = isset($message['chat']['first_name']) ? $message['chat']['first_name'] : "";//non lo prende perché fa riferimento alla chat da cui viene invocato e non all'utente che lo invoca.
 $lastname = isset($message['chat']['last_name']) ? $message['chat']['last_name'] : "";
 $username = isset($message['chat']['username']) ? $message['chat']['username'] : "";
 $date = isset($message['date']) ? $message['date'] : "";
 $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
-$text = strtolower($text);
+$text = strtolower($text);//superfluo. Per un confronto case unsensitive puoi usare stristr.
 header("Content-Type: application/json");
 $response = '';
-if(strpos($text, "/start") === 0 || $text=="/ciao" or $text=="/ciao@V0X2BOT")
+if(strpos($text, "/start") === 0 || $text=="/ciao" or $text=="/ciao@V0X2BOT")//or va con ||
 {
 	$response = "Ciao $firstname!";
 }
