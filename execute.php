@@ -33,7 +33,7 @@ elseif($text=="/sito" || $text=="/sito@V0X2BOT")
 {
 	$response = "HAHAHAHAHAHAHAHAHAHAHA, no va beh, tieni: https://www.vox2box.com";
 }
-elseif($text=="/salta")
+elseif($text=="/salta" || $text=="/salta@V0X2BOT")
 {
 	$response = "$firstname salta con noi";
 }
