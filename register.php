@@ -1,6 +1,5 @@
 <?php
 
-// PARAMETRI DA MODIFICARE
 $WEBHOOK_URL = 'https://vox2bot.herokuapp.com/execute.php';
 $BOT_TOKEN = '793438111:AAGkf81suEHUaybmahJ53_n9FMQ4Mc_hEXM';
 
