@@ -110,7 +110,7 @@ elseif( stristr ( $text, "/rant" ) == true )
 }
 elseif( stristr ( $text, "/ventura" ) == true )
 {
-	$response = "è il peggior allenatore che l'Italia ha MAI avuto perché a differenza di tante altre volte il materiale ce l'aveva a disposizione, ma sto figlio di puttana ha pensato bene di fare come cazzo gli pareva e di farci perdere un cazzo di mondiale. cioè, io pensavo sinceramente che nella mia fottutissima vita di merda di non vedere mai una cazzo di estate mondiale senza l'Italia. E ora io mi metto in muto perché sono a tanto così da tirare 25 bestemmie di seguito. Questo figlio di puttana ci ha condannati per le sue idee di merda lasciando fuori la gente più in forma per le sue cazzo di convinzioni";
+	$response = "è il peggior allenatore che l'Italia ha MAI avuto perché a differenza di tante altre volte il materiale ce l'aveva a disposizione, ma sto figlio di puttana ha pensato bene di fare come cazzo gli pareva e di farci perdere un cazzo di mondiale. cioè, io pensavo sinceramente che nella mia fottutissima vita di merda di non vedere mai una cazzo di estate mondiale senza l'Italia. E ora io mi metto in muto perché sono a tanto così da tirare 25 bestemmie di seguito. Questo figlio di puttana ci ha condannati per le sue idee di merda lasciando fuori la gente più in forma per le sue cazzo di convinzioni e deve morire, quel cretino. DEVE MORIRE";
 }
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
