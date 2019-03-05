@@ -104,6 +104,10 @@ elseif( stristr ( $text, "/svezia" ) == true )
 {
 	$response = "Legend Killer, come Randy Orton";
 }
+elseif( stristr ( $text, "/microfoni" ) == true )
+{
+	$response = "NON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\n";
+}
 elseif( stristr ( $text, "/rant" ) == true )
 {
 	$response = "Noi ragazzi abbiamo fatto due tiri in porta, in 180 minuti, in 180 minuti, due tiri in porta, di cui uno sporco che era tipo un tiro di destro di Chiellini che la sfiga ha voluto che aneh, che quella palla finisse sul piede destro di Chiellini e l'altro di El Shaarawy, ma due tiri, in 180' contro una squadra che ha come capitano Granqvist, che, porco demonio, a Genova se fa.. se vedono Granqvist danno fuoco alla città perchè faceva più danni della grandine quello.";
