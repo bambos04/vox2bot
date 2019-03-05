@@ -17,11 +17,19 @@ $text = trim($text);
 $text = strtolower($text);//superfluo. Per un confronto case unsensitive puoi usare stristr.
 header("Content-Type: application/json");
 $response = '';
-if(strpos($text, "/start") === 0 || $text=="/ciao" or $text=="/ciao@V0X2BOT")//or va con ||
+if(strpos($text, "/start") === 0 || $text=="/ciao")//or va con ||
 {
 	$response = "Ciao $firstname!";
 }
-elseif($text=="/social" or $text=="/social@V0X2BOT")
+elseif($text=="/ciao@V0X2BOT")
+{
+	$response = "Ciao $firstname!";
+}
+elseif($text=="/social")
+{
+	$response = "Twitter: https://twitter.com/vox2box  \r\nInstagram: https://www.instagram.com/vox2box/ \r\nFacebook: https://www.facebook.com/vox2box/";
+}
+elseif( $text=="/social@V0X2BOT")
 {
 	$response = "Twitter: https://twitter.com/vox2box  \r\nInstagram: https://www.instagram.com/vox2box/ \r\nFacebook: https://www.facebook.com/vox2box/";
 }
