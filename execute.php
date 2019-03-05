@@ -31,23 +31,23 @@ elseif($text=="/redazione")
 }
 elseif($text=="/sito")
 {
-	$response = "HAHAHAHAHAHAHAHAHAHAHA, no va beh, tieni: https://www.vox2box.com"
+	$response = "HAHAHAHAHAHAHAHAHAHAHA, no va beh, tieni: https://www.vox2box.com";
 }
 elseif($text=="/salta")
 {
-	$response = "$firstname salta con noi"
+	$response = "$firstname salta con noi";
 }
 elseif($text=="/handanovic")
 {
-	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili"
+	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili";
 }
 elseif($text="/gruppi")
 {
-	$response = "https://t.me/vox2box/481340"
+	$response = "https://t.me/vox2box/481340";
 }
 elseif($text="/puntata")
 {
-	$response = "https://www.spreaker.com/show/vox-2-box"
+	$response = "https://www.spreaker.com/show/vox-2-box";
 }
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
