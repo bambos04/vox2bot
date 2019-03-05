@@ -49,6 +49,10 @@ elseif($text=="/puntata")
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
 }
+elseif($text=="/alice")
+{
+	$response = "https://it.wikipedia.org/wiki/Ape_regina";
+}
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
 echo json_encode($parameters);
