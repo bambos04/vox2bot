@@ -19,7 +19,7 @@ header("Content-Type: application/json");
 $response = '';
 if(strpos($text, "/start") === 0 || $text=="/ciao")
 {
-	$response = "Ciao $firstname, benvenuto!";
+	$response = "Ciao $firstname!";
 }
 elseif($text=="/social")
 {
@@ -41,11 +41,11 @@ elseif($text=="/handanovic")
 {
 	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili";
 }
-elseif($text="/gruppi")
+elseif($text=="/gruppi")
 {
 	$response = "https://t.me/vox2box/481340";
 }
-elseif($text="/puntata")
+elseif($text=="/puntata")
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
 }
