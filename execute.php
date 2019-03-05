@@ -17,19 +17,19 @@ $text = trim($text);
 $text = strtolower($text);
 header("Content-Type: application/json");
 $response = '';
-if(strpos($text, "/start") === 0 || $text=="/ciao")
+if(strpos($text, "/start") === 0 || $text=="/ciao" || $text=="/ciao@V0X2BOT")
 {
 	$response = "Ciao $firstname!";
 }
-elseif($text=="/social")
+elseif($text=="/social" || $text=="/social@V0X2BOT")
 {
 	$response = "Twitter: https://twitter.com/vox2box  \r\nInstagram: https://www.instagram.com/vox2box/ \r\nFacebook: https://www.facebook.com/vox2box/";
 }
-elseif($text=="/redazione")
+elseif($text=="/redazione" || $text=="/redazione@V0X2BOT")
 {
 	$response = "La gentile redazione è composta da 7 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero";
 }
-elseif($text=="/sito")
+elseif($text=="/sito" || $text=="/sito@V0X2BOT")
 {
 	$response = "HAHAHAHAHAHAHAHAHAHAHA, no va beh, tieni: https://www.vox2box.com";
 }
@@ -37,21 +37,17 @@ elseif($text=="/salta")
 {
 	$response = "$firstname salta con noi";
 }
-elseif($text=="/handanovic")
+elseif($text=="/handanovic" || $text=="/handanovic@V0X2BOT")
 {
 	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili";
 }
-elseif($text=="/gruppi")
+elseif($text=="/gruppi" || $text=="/gruppi@V0X2BOT")
 {
 	$response = "https://t.me/vox2box/481340";
 }
-elseif($text=="/puntata")
+elseif($text=="/puntata" || $text=="/puntata@V0X2BOT")
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
-}
-elseif($text=="/alice")
-{
-	$response = "https://it.wikipedia.org/wiki/Ape_regina";
 }
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
