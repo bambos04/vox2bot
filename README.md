@@ -1,3 +1,3 @@
-# Telegram Echo Bot
+# Bepponato dimettiti
 
-This is a sample Telegram Bot written in PHP running on Heroku
+Bepponato Salta con noi
