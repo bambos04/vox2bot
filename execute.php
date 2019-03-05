@@ -14,42 +14,37 @@ $username = isset($message['chat']['username']) ? $message['chat']['username'] :
 $date = isset($message['date']) ? $message['date'] : "";
 $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
-$text = strtolower($text);//superfluo. Per un confronto case unsensitive puoi usare stristr.
 header("Content-Type: application/json");
 $response = '';
-if(strpos($text, "/start") === 0 || $text=="/ciao" or $text=="/ciao@vox2bot")//or va con || e text tu l'hai messo tutto in minuscolo quindi anche vox2bot lo deve diventare nel confronto.
+if(strpos($text, "/start") === 0 || stristr ( $text, "/ciao" ) == true )//or va con || e text tu l'hai messo tutto in minuscolo quindi anche vox2bot lo deve diventare nel confronto.
 {
 	$response = "Ciao $firstname!";
 }
-elseif($text=="/social" or $text=="/social@V0X2BOT")
+elseif( stristr ( $text, "/social" ) == true )
 {
 	$response = "Twitter: https://twitter.com/vox2box  \r\nInstagram: https://www.instagram.com/vox2box/ \r\nFacebook: https://www.facebook.com/vox2box/";
 }
-elseif($text=="/redazione" or $text=="/redazione@V0X2BOT")
+elseif( stristr ( $text, "/redazione" ) == true ) )
 {
 	$response = "La gentile redazione è composta da 7 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero";
 }
-elseif($text=="/sito")
+elseif( stristr ( $text, "/sito" ) == true ) )
 {
 	$response = "HAHAHAHAHAHAHAHAHAHAHA, \r\nno va beh, tieni: https://www.vox2box.com";
 }
-elseif($text=="/salta" or $text=="/salta@V0X2BOT")
+elseif( stristr ( $text, "/salta" ) == true ) )
 {
 	$response = "$firstname salta con noi";
 }
-elseif($text=="/handanovic" or $text=="/handanovic@V0X2BOT")
+elseif( stristr ( $text, "/handanovic" ) == true ) )
 {
 	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili";
 }
-elseif($text=="/gruppi" or $text=="/gruppi@V0X2BOT")
+elseif( stristr ( $text, "/gruppi" ) == true ) )
 {
 	$response = "https://t.me/vox2box/490889";
 }
-elseif($text=="/puntata" or $text=="/puntata@V0X2BOT")
-{
-	$response = "https://www.spreaker.com/show/vox-2-box";
-}
-elseif($text=="/sito@V0X2BOT")
+elseif( stristr ( $text, "/puntata" ) == true ) )
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
 }
