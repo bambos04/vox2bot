@@ -17,21 +17,37 @@ $text = trim($text);
 $text = strtolower($text);
 header("Content-Type: application/json");
 $response = '';
-if(strpos($text, "/start") === 0 || $text=="ciao")
+if(strpos($text, "/start") === 0 || $text=="/ciao")
 {
 	$response = "Ciao $firstname, benvenuto!";
 }
+elseif($text=="/social")
+{
+	$response = "Twitter: https://twitter.com/vox2box  Instagram: https://www.instagram.com/vox2box/";
+}
 elseif($text=="/redazione")
 {
-	$response = "risposta 1";
+	$response = "La gentile redazione è composta da 7 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero";
 }
-elseif($text=="ciao")
+elseif($text=="/sito")
 {
-	$response = "risposta 2";
+	$response = "HAHAHAHAHAHAHAHAHAHAHA, no va beh, tieni: https://www.vox2box.com"
 }
-else
+elseif($text=="/salta")
 {
-	$response = "Comando non valido!";
+	$response = "$firstname salta con noi"
+}
+elseif($text=="/handanovic")
+{
+	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili"
+}
+elseif($text="/gruppi")
+{
+	$response = "https://t.me/vox2box/481340"
+}
+elseif($text="/puntata")
+{
+	$response = "https://www.spreaker.com/show/vox-2-box"
 }
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
