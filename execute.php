@@ -29,9 +29,9 @@ elseif($text=="/redazione" or $text=="/redazione@V0X2BOT")
 {
 	$response = "La gentile redazione è composta da 7 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero";
 }
-elseif($text=="/sito" or $text=="/sito@V0X2BOT")
+elseif($text=="/sito")
 {
-	$response = "HAHAHAHAHAHAHAHAHAHAHA, no va beh, tieni: https://www.vox2box.com";
+	$response = "HAHAHAHAHAHAHAHAHAHAHA, \r\nno va beh, tieni: https://www.vox2box.com";
 }
 elseif($text=="/salta" or $text=="/salta@V0X2BOT")
 {
@@ -43,9 +43,13 @@ elseif($text=="/handanovic" or $text=="/handanovic@V0X2BOT")
 }
 elseif($text=="/gruppi" or $text=="/gruppi@V0X2BOT")
 {
-	$response = "https://t.me/vox2box/481340";
+	$response = "https://t.me/vox2box/490889";
 }
 elseif($text=="/puntata" or $text=="/puntata@V0X2BOT")
+{
+	$response = "https://www.spreaker.com/show/vox-2-box";
+}
+elseif($text=="/sito@V0X2BOT")
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
 }
