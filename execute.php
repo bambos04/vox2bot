@@ -64,7 +64,7 @@ elseif( stristr ( $text, "/rn" ) == true )
 {
 	$response = "N A I N G G O L A N. LA DOPPIA SULLA G, SULLA CAZZO DI G";
 }
-elseif( stristr ( $text, "/piatek" ) == true )
+elseif( stristr ( $text, "/kpiatek" ) == true )
 {
 	$response = "Pum Pum Pum";
 }
