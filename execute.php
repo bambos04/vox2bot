@@ -56,29 +56,9 @@ elseif( stristr ( $text, "/abisso" ) == true )
 {
 	$response = "Ricordati che quando guardi a lungo Abisso, l'abisso guarda in te";
 }
-elseif( stristr ( $text, "/joker" ) == true )
-{
-	$response = "https://www.instagram.com/p/Bujp_ryl-70/?hl=it";
-}
-elseif( stristr ( $text, "/joker" ) == true )
-{
-	$response = "https://www.instagram.com/p/Bujp_ryl-70/?hl=it";
-}
 elseif( stristr ( $text, "/coso" ) == true )
 {
 	$response = "Si chiama Szczesny porca madonna, coso ci chiami tuo fratello";
-}
-elseif( stristr ( $text, "/vjr" ) == true )
-{
-	$response = "Vinicius";
-}
-elseif( stristr ( $text, "/hz" ) == true )
-{
-	$response = "Ziyech";
-}
-elseif( stristr ( $text, "/mdl" ) == true )
-{
-	$response = "De Ligt";
 }
 elseif( stristr ( $text, "/rn" ) == true )
 {
@@ -88,13 +68,13 @@ elseif( stristr ( $text, "/piatek" ) == true )
 {
 	$response = "Pum Pum Pum";
 }
-elseif( stristr ( $text, "/rl" ) == true )
+elseif( stristr ( $text, "/candreva" ) == true )
 {
-	$response = "Lewandowski";
+	$response = "Forse cercavi /handanovic";
 }
-elseif( stristr ( $text, "/pz" ) == true )
+elseif( stristr ( $text, "/alisson" ) == true )
 {
-	$response = "Zielinski";
+	$response = "ALLORA CHIARIAMOCI SUBITO, SI CHIAMA ALISSON A L I DOPPIA S O N, NON ALLISON OK? BENE.";
 }
 elseif( stristr ( $text, "/GC" ) == true )
 {
