@@ -26,11 +26,11 @@ elseif( stristr ( $text, "/social" ) == true )
 }
 elseif( stristr ( $text, "/redazione" ) == true ) 
 {
-	$response = "La gentile redazione è composta da 7 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero";
+	$response = "La gentile redazione è composta da 8 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti, l'avv Andrea Napoli AKA Francesco Andrianopoli e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero.";
 }
 elseif( stristr ( $text, "/sito" ) == true ) 
 {
-	$response = "HAHAHAHAHAHAHAHAHAHAHA, \r\nno va beh, tieni: https://www.vox2box.com";
+	$response = "HAHAHAHAHAHAHAHAHAHAHA \r\nno va beh, tieni: https://www.vox2box.com";
 }
 elseif( stristr ( $text, "/salta" ) == true ) 
 {
@@ -40,6 +40,10 @@ elseif( stristr ( $text, "/handanovic" ) == true )
 {
 	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili";
 }
+elseif( stristr ( $text, "/candreva" ) == true )
+{
+	$response = "https://www.youtube.com/watch?v=Qkuu0Lwb5EM";
+}
 elseif( stristr ( $text, "/gruppi" ) == true )
 {
 	$response = "https://t.me/vox2box/490889";
@@ -47,14 +51,6 @@ elseif( stristr ( $text, "/gruppi" ) == true )
 elseif( stristr ( $text, "/puntata" ) == true )
 {
 	$response = "https://www.spreaker.com/show/vox-2-box";
-}
-elseif( stristr ( $text, "/abisso" ) == true )
-{
-	$response = "Ricordati che quando guardi a lungo Abisso, l'abisso guarda in te";
-}
-elseif( stristr ( $text, "/abisso" ) == true )
-{
-	$response = "Ricordati che quando guardi a lungo Abisso, l'abisso guarda in te";
 }
 elseif( stristr ( $text, "/coso" ) == true )
 {
@@ -68,17 +64,9 @@ elseif( stristr ( $text, "/kpiatek" ) == true )
 {
 	$response = "Pum Pum Pum";
 }
-elseif( stristr ( $text, "/candreva" ) == true )
-{
-	$response = "Forse cercavi /handanovic";
-}
 elseif( stristr ( $text, "/alisson" ) == true )
 {
 	$response = "ALLORA CHIARIAMOCI SUBITO, SI CHIAMA ALISSON A L I DOPPIA S O N, NON ALLISON OK? BENE.";
-}
-elseif( stristr ( $text, "/GC" ) == true )
-{
-	$response = "Arriva per primo, se ne va per ultimo.";
 }
 elseif( stristr ( $text, "/svezia" ) == true )
 {
