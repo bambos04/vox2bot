@@ -32,6 +32,10 @@ elseif( stristr ( $text, "/sito" ) == true )
 {
 	$response = "HAHAHAHAHAHAHAHAHAHAHA \r\nno va beh, tieni: https://www.vox2box.com";
 }
+elseif( stristr ( $text, "/spalletti" ) == true ) 
+{
+	$response = "Quando l'acqua va da un posto ad un altro perché inclini un recipiente è uno sciagattone";
+}
 elseif( stristr ( $text, "/salta" ) == true ) 
 {
 	$response = "$firstname salta con noi";
