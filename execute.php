@@ -26,7 +26,7 @@ elseif( stristr ( $text, "/social" ) == true )
 }
 elseif( stristr ( $text, "/redazione" ) == true ) 
 {
-	$response = "La gentile redazione è composta da 8 membri, in ordine di importanza: Marco Maioli, cinque a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti, l'avv Andrea Napoli AKA Francesco Andrianopoli e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero.";
+	$response = "La gentile redazione è composta da 8 membri, in ordine di importanza: Marco Maioli, sei a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti, l'avv Andrea Napoli AKA Francesco Andrianopoli e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero.";
 }
 elseif( stristr ( $text, "/sito" ) == true ) 
 {
@@ -35,6 +35,10 @@ elseif( stristr ( $text, "/sito" ) == true )
 elseif( stristr ( $text, "/spalletti" ) == true ) 
 {
 	$response = "Quando l'acqua va da un posto ad un altro perché inclini un recipiente è uno sciagattone";
+}
+elseif( stristr ( $text, "/findus" ) == true ) 
+{
+	$response = "Ventura - Capitan Findus: il movimento ad esca. Bellissimo";
 }
 elseif( stristr ( $text, "/salta" ) == true ) 
 {
@@ -50,7 +54,7 @@ elseif( stristr ( $text, "/candreva" ) == true )
 }
 elseif( stristr ( $text, "/gruppi" ) == true )
 {
-	$response = "https://t.me/vox2box/490889";
+	$response = "https://t.me/vox2box/526895";
 }
 elseif( stristr ( $text, "/puntata" ) == true )
 {
@@ -80,13 +84,17 @@ elseif( stristr ( $text, "/microfoni" ) == true )
 {
 	$response = "NON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\n";
 }
-elseif( stristr ( $text, "/rant" ) == true )
+elseif( stristr ( $text, "/maze" ) == true )
 {
 	$response = "Noi ragazzi abbiamo fatto due tiri in porta, in 180 minuti, in 180 minuti, due tiri in porta, di cui uno sporco che era tipo un tiro di destro di Chiellini che la sfiga ha voluto che aneh, che quella palla finisse sul piede destro di Chiellini e l'altro di El Shaarawy, ma due tiri, in 180' contro una squadra che ha come capitano Granqvist, che, porco demonio, a Genova se fa.. se vedono Granqvist danno fuoco alla città perchè faceva più danni della grandine quello.";
 }
 elseif( stristr ( $text, "/ventura" ) == true )
 {
 	$response = "è il peggior allenatore che l'Italia ha MAI avuto perché a differenza di tante altre volte il materiale ce l'aveva a disposizione, ma sto figlio di puttana ha pensato bene di fare come cazzo gli pareva e di farci perdere un cazzo di mondiale. cioè, io pensavo sinceramente che nella mia fottutissima vita di merda di non vedere mai una cazzo di estate mondiale senza l'Italia. E ora io mi metto in muto perché sono a tanto così da tirare 25 bestemmie di seguito. Questo figlio di puttana ci ha condannati per le sue idee di merda lasciando fuori la gente più in forma per le sue cazzo di convinzioni e deve morire, quel cretino. DEVE MORIRE";
+}
+elseif( stristr ( $text, "/smm" ) == true )
+{
+	$response = "Alice";
 }
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
