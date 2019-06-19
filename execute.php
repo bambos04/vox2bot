@@ -96,6 +96,10 @@ elseif( stristr ( $text, "/dibiagio" ) == true )
 {
 	$response = "white Thanos can't coach";
 }
+elseif( stristr ( $text, "/salernitana" ) == true )
+{
+	$response = "merda";
+}
 
 
 
