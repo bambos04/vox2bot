@@ -42,15 +42,7 @@ elseif( stristr ( $text, "/findus" ) == true )
 }
 elseif( stristr ( $text, "/salta" ) == true ) 
 {
-	$response = "$firstname salta con noi";
-}
-elseif( stristr ( $text, "/handanovic" ) == true )
-{
-	$response = "https://www.disabili.com/legge-e-fisco/speciali-legge-a-fisco/legge-104-disabili";
-}
-elseif( stristr ( $text, "/candreva" ) == true )
-{
-	$response = "https://www.youtube.com/watch?v=Qkuu0Lwb5EM";
+	$response = "https://t.me/vox2box/627313";
 }
 elseif( stristr ( $text, "/gruppi" ) == true )
 {
@@ -96,6 +88,15 @@ elseif( stristr ( $text, "/smm" ) == true )
 {
 	$response = "Alice";
 }
+elseif( stristr ( $text, "/dimarco" ) == true )
+{
+	$response = "Dimarco = giocatore \n Di Marco = arbitro \n :)";
+}
+elseif( stristr ( $text, "/dibiagio" ) == true )
+{
+	$response = "white Thanos can't coach";
+}
+
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
