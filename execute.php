@@ -86,11 +86,11 @@ elseif( stristr ( $text, "/ventura" ) == true )
 }
 elseif( stristr ( $text, "/smm" ) == true )
 {
-	$response = "Alice";
+	$response = "Alice <3";
 }
 elseif( stristr ( $text, "/dimarco" ) == true )
 {
-	$response = "Dimarco = giocatore \n Di Marco = arbitro \n";
+	$response = "Dimarco = giocatore \n Di Marco = arbitro \n :D";
 }
 elseif( stristr ( $text, "/dibiagio" ) == true )
 {
