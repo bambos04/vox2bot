@@ -98,7 +98,7 @@ elseif( stristr ( $text, "/dibiagio" ) == true )
 }
 elseif( stristr ( $text, "/salernitana" ) == true )
 {
-	$response = "merda";
+	$response = "nOn AvEtE fEsTeGgIaTo La SaLeRnItAnA";
 }
 
 
