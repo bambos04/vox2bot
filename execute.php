@@ -90,12 +90,13 @@ elseif( stristr ( $text, "/smm" ) == true )
 }
 elseif( stristr ( $text, "/dimarco" ) == true )
 {
-	$response = "Dimarco = giocatore \n Di Marco = arbitro \n :)";
+	$response = "Dimarco = giocatore \n Di Marco = arbitro \n";
 }
 elseif( stristr ( $text, "/dibiagio" ) == true )
 {
 	$response = "white Thanos can't coach";
 }
+
 
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
