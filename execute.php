@@ -72,6 +72,10 @@ elseif( stristr ( $text, "/svezia" ) == true )
 {
 	$response = "Legend Killer, come Randy Orton";
 }
+elseif( stristr ( $text, "/alljuve" ) == true )
+{
+	$response = "Juventus: Pep Guardiola \n Juventus U23: Maurizio Sarri";
+}
 elseif( stristr ( $text, "/microfoni" ) == true )
 {
 	$response = "NON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\n";
