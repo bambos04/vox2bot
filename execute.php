@@ -46,7 +46,7 @@ elseif( stristr ( $text, "/salta" ) == true )
 }
 elseif( stristr ( $text, "/gruppi" ) == true )
 {
-	$response = "https://t.me/vox2box/526895";
+	$response = "Ci sarebbero altri gruppi, ma andrebbero riaggregati \n https://t.me/vox2box/526895";
 }
 elseif( stristr ( $text, "/puntata" ) == true )
 {
@@ -72,10 +72,6 @@ elseif( stristr ( $text, "/svezia" ) == true )
 {
 	$response = "Legend Killer, come Randy Orton";
 }
-elseif( stristr ( $text, "/alljuve" ) == true )
-{
-	$response = "Juventus: Pep Guardiola \n Juventus U23: Maurizio Sarri";
-}
 elseif( stristr ( $text, "/microfoni" ) == true )
 {
 	$response = "NON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\nNON È ANDATO AI MICROFONI \r\n";
@@ -99,10 +95,6 @@ elseif( stristr ( $text, "/dimarco" ) == true )
 elseif( stristr ( $text, "/dibiagio" ) == true )
 {
 	$response = "white Thanos can't coach";
-}
-elseif( stristr ( $text, "/salernitana" ) == true )
-{
-	$response = "nOn AvEtE fEsTeGgIaTo La SaLeRnItAnA";
 }
 
 
