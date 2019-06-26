@@ -42,7 +42,7 @@ elseif( stristr ( $text, "/findus" ) == true )
 }
 elseif( stristr ( $text, "/salta" ) == true ) 
 {
-	$response = "https://t.me/vox2box/627313";
+	$response = "https://t.me/vox2box/633935";
 }
 elseif( stristr ( $text, "/gruppi" ) == true )
 {
