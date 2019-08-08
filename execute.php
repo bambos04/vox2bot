@@ -28,6 +28,10 @@ elseif( stristr ( $text, "/redazione" ) == true )
 {
 	$response = "La gentile redazione è composta da 8 membri, in ordine di importanza: Marco Maioli, sei a pari merito ovvero: Giulio Di Cienzo, Simone Donati, Francesco Lisanti, Francesco Mariani, Daniele Mazzanti, l'avv Andrea Napoli AKA Francesco Andrianopoli e quell'altro, come si chiama, il sedicente direttore, Beppe Ruggiero.";
 }
+elseif( stristr ( $text, "/bepponato" ) == true ) 
+{
+	$response = "forse cercavi: Giuseppe Conte";
+}
 elseif( stristr ( $text, "/sito" ) == true ) 
 {
 	$response = "HAHAHAHAHAHAHAHAHAHAHA \r\nno va beh, tieni: https://www.vox2box.com";
